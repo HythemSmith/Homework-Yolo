@@ -1,0 +1,14 @@
+names:
+- CAR
+- HGV_BUS
+- MOTOR
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: homework-c85ln
+  url: https://universe.roboflow.com/adip-xskmh/homework-c85ln/dataset/1
+  version: 1
+  workspace: adip-xskmh
+test: ../test/images
+train: ../train/images
+val: ../valid/images
