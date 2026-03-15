@@ -12,8 +12,8 @@ save_period: -1
 cache: false
 device: '0'
 workers: 2
-project: runs/object_detection
-name: train_results
+project: runs/train
+name: train_results2
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -102,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\object_detection\train_results
+save_dir: runs\train\train_results2

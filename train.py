@@ -28,5 +28,5 @@ if __name__ == '__main__':
         workers=2 # Thêm thông số này để load data nhẹ nhàng hơn trên máy cá nhân
     )
 
-    print("Đã huấn luyện xong! Mở thư mục runs/object_detection/train_results để xem biểu đồ.")
+    print("Đã huấn luyện xong! Mở thư mục runs/object detection/train_results để xem biểu đồ.")
                 
