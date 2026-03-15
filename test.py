@@ -2,9 +2,9 @@ import os
 import glob
 from ultralytics import YOLO
 
-model = YOLO('runs/train/train_results2/weights/best.pt')
+model = YOLO('runs/train/train_results/weights/best.pt')
 
-test_images_path = 'homework-1/test/images' 
+test_images_path = 'object_detection_yolo/test/images' 
 
 image_files = glob.glob(os.path.join(test_images_path, '*.jpg'))
 
