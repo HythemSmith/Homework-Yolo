@@ -1,0 +1,7 @@
+Homework-1/
+yolo*.pt
+cifar10_processed/
+cifar10/
+cifar-10-batches-py/
+.vscode/
+.env
